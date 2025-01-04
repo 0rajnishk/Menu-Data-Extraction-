@@ -33,6 +33,8 @@ This project extracts structured data (menu items, descriptions, and prices) fro
 
 ## Deployment Plan
 This project can be deployed using Docker and Docker Compose for scalability and portability. Below are the steps:
+![Running Docker](Screenshots/running_docker.gif)
+
 
 ### Docker Setup
 1. **Dockerfile**:
