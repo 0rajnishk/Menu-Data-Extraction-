@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: menu-data-extraction
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./data:/app/data  
+      - ./temp_uploads:/app/temp_uploads  
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: always
