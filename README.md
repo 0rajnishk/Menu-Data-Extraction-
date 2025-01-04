@@ -3,6 +3,10 @@
 ## Overview
 This project extracts structured data (menu items, descriptions, and prices) from restaurant menu files in PDF and image formats. The extracted data is saved in a CSV file for easy use in applications like inventory systems, analytics, or digitized menu services.
 
+![Running Docker](Screenshots/web-capture.gif)
+
+
+
 ## Objectives
 1. Process menu files (images and PDFs) through a web-based interface.
 2. Extract relevant data fields:
